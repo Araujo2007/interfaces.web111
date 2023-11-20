@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/paofundoo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    }
+
+    body,ul ,li ,p{
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+    }
+    h2{
+        color: #5E3208;
+        text-align: center;
+        font-family: Agbalumo;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .header{
+        background-color: #F8DCB7;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .logo{
+        font-family: 'Lobster', sans-serif;
+        color:#5E3208;
+    }
+    .menu{
+        display: flex;
+    }
+    .menu li{
+        margin-left: 20px;
+    }
+    .menu a{
+        background-color: transparent;
+    }
+    h3{
+        text-align: center;
+        color: #5E3208;
+        background-color: #F8DCB7;
+    }
+    #container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    .item{
+        background-color: #ffffff;
+        color: #fff;
+        padding: 20px;
+        margin: 5px;
+        width: 300px;
+    }
+    h4{
+        text-align: center;
+        color: black;
+    }
+    p{
+        color: black;
+    }
+    button{
+        text-align: center;
+        height: 40px;
+        width: 100%;
+        color: #fff;    
+        background-color: black;    
+        border-radius: 10px;
+    }
+    img{
+        width: 295px;
+        height: 180px;
+    }
+    .final{
+        background-color: #5E3208;
+    }
+    .final p{
+        color:#ffffff;
+    }
+    .final h4{
+        text-align: left;
+    }
